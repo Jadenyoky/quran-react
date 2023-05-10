@@ -1,0 +1,58 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.downIcon {
+  position: fixed ;
+  bottom: 20px;
+  right: 20px;
+  height: 70px;
+  width: 70px;
+  background-color: coral;
+  color: coral ;
+  border-radius: 50px;
+  transform: translateY(200%);
+  opacity: 0;
+  transition: 0.3s linear;
+  cursor: pointer;
+} .downIconProg:hover {
+  background-color: #c0cfd8;
+} .downIconProg {
+  position: absolute;
+  top: 50% ;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  height: calc(100% - 10px);
+  width: calc(100% - 10px) ;
+  border-radius: 50%;
+  background-color: white;
+  color: #0069a7;
+  transition: 0.3s linear;
+} .downIconProgOne {
+  position: absolute;
+  top: 50% ;
+  left: 50% ;
+  transform: translate(-50% , -50%) rotate(0deg);
+  transition: 0.3s linear;
+}
+
+@keyframes downIconMove {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  } 100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+.downIconOne {
+  opacity: 1;
+  transform: translate(0);
+  animation: downIconMove 0.3s linear;
+}
+
+
+.end {
+  position: relative;
+  top: 100%;
+}
