@@ -5,7 +5,7 @@
 .downIcon {
   position: fixed ;
   bottom: 20px;
-  right: 20px;
+  right: 27%;
   height: 70px;
   width: 70px;
   background-color: coral;
@@ -13,7 +13,7 @@
   border-radius: 50px;
   transform: translateY(200%);
   opacity: 0;
-  transition: 0.3s linear;
+  transition: 0.4s linear;
   cursor: pointer;
 } .downIconProg:hover {
   background-color: #c0cfd8;
@@ -55,4 +55,8 @@
 .end {
   position: relative;
   top: 100%;
+}
+
+.downIconRight {
+  right: 20px ;
 }

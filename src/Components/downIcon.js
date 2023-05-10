@@ -18,11 +18,9 @@ const DownIcon = () => {
 
 export default DownIcon;
 
-
 window.onscroll = () => {
-  downIconShow() ; scrollPercent() ; 
+  downIconShow() ; scrollPercent() ; headerShadow() ; hideAndShowOnScroll() ;
 }
-
 
 function downIconShow(){
     const down = document.querySelector('.downIcon')
@@ -65,4 +63,36 @@ function toDown(){
     document.documentElement.scrollTop = 0
   } 
 
+}
+
+
+function headerShadow(){
+  let header = document.querySelector('.header')
+  if(window.scrollY > 10){
+    header.classList.add('shadow')
+  } else {
+    header.classList.remove('shadow')
+  }
+}
+
+let S = window.scrollY ;
+
+function hideAndShowOnScroll(){
+  let header = document.querySelector('.header')
+  let menu = document.querySelector('.menu')
+  if( S < window.scrollY && S > window.innerHeight){
+    header.classList.add('headerHide')
+    header.classList.remove('headerShow')
+    menu.style.top = '0'
+    menu.style.height = '100vh'
+    console.log('hide')
+  } else {
+    header.classList.add('headerShow')
+    header.classList.remove('headerHide')
+    menu.style.top = '49px'
+    menu.style.height = 'calc(100vh - 49px)'
+    console.log('show')
+  }
+  
+  S = window.scrollY ;
 }
