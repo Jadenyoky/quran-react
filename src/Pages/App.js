@@ -6,6 +6,7 @@ import {  } from "react-router-dom";
 import Down from '../Components/downIcon'
 import Header from '../Components/Header'
 import Menu from '../Components/menu'
+import Footer from '../Components/Footer'
 
 
 const App = () => {
@@ -143,6 +144,7 @@ const App = () => {
         </p>
         <h1 className='suraEnd'>صدق الله العظيم</h1>
       </div>
+      <Footer />
       <Down />
     </div>
   );

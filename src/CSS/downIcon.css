@@ -15,6 +15,7 @@
   opacity: 0;
   transition: 0.4s linear;
   cursor: pointer;
+  box-shadow: 1px 1px 40px 0px black;
 } .downIconProg:hover {
   background-color: #c0cfd8;
 } .downIconProg {

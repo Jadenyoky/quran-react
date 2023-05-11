@@ -28,17 +28,25 @@ code {
   transition: 0.1s ease 0.1s ;
   border: 1px solid rgb(0,0,0,0.2);
   border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
 }
 
 .suraWidth {
-  width: 90%
+  width: 90%;
+  border-right: 1px solid rgb(0, 105, 170, 0.5);
 }
 
-.suraTitle , .suraEnd , .suraStart {
+.suraTitle , .suraStart {
   border: 1px solid rgb(0,0,0,0.2);
   font-size: 25px;
   padding: 10px 20px;
-  border-radius:10px 0;
+  border-radius: 10px 0;
+} .suraEnd {
+  font-size: 25px;
+  border: 1px solid rgb(0,0,0,0.2);
+  border-radius: 10px 0;
+  padding: 10px 20px;
+  margin-top: -10px;
 }
 
 .suraStart {
@@ -48,7 +56,7 @@ code {
 .suraWords {
   border-top: 1px solid rgb(0,0,0,0.2);
   border-bottom: 1px solid rgb(0,0,0,0.2);
-  padding: 20px 15px;
+  padding: 30px 30px;
   margin-top: 20px;
 }
 
