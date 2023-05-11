@@ -1,5 +1,5 @@
 * {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 body {
@@ -9,9 +9,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: overlay;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.sura {
+  display: flex;
+  font-size: 30px;
+  direction: rtl;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 75%;
+  transition: 0.1s ease 0.1s ;
+  border: 1px solid rgb(0,0,0,0.2);
+  border-top: 1px solid transparent;
+}
+
+.suraWidth {
+  width: 90%
+}
+
+.suraTitle , .suraEnd , .suraStart {
+  border: 1px solid rgb(0,0,0,0.2);
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius:10px 0;
+}
+
+.suraStart {
+  margin: 0;
+}
+
+.suraWords {
+  border-top: 1px solid rgb(0,0,0,0.2);
+  border-bottom: 1px solid rgb(0,0,0,0.2);
+  padding: 20px 15px;
+  margin-top: 20px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 105, 170, 0.8);
+  border-radius: 25px;
 }

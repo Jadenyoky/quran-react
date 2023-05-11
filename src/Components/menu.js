@@ -5,74 +5,80 @@ import { NavLink } from 'react-router-dom'
 const Menu = () => {
   return (
     <div className='menu'>
-      <NavLink className="headers" to="/errorasdad" ><div>asfafsaf</div></NavLink>
-      <NavLink to="/errr" ><div>asfafsaf</div></NavLink>
-      <NavLink to="/" ><div>asfafsaf</div></NavLink>
-      <NavLink to="/errorasdad" ><div>asfafsaf</div></NavLink>
-      <NavLink to="/" ><div>asfafsaf</div></NavLink>
-      <NavLink to="/" ><div>asfafsaf</div></NavLink>
-      <NavLink to="/" ><div>asfafsaf</div></NavLink>
-      <NavLink to="/" ><div>asfafsaf</div></NavLink>
-      <NavLink to="/" ><div>asfafsaf</div></NavLink>
-
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
-      <div>asfafsaf</div>
+      <div className='menuHeader'>فهرس سور القرآن الكريم</div>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/app">1- سورة الفاتحة</NavLink>
+      <NavLink to="/app">1- سورة الفاتحة</NavLink>
+      <NavLink to="/app">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/app">1- سورة الفاتحة</NavLink>
+      <NavLink to="/app">1- سورة الفاتحة</NavLink>
+      <NavLink to="/app">1- سورة الفاتحة</NavLink>
+      <NavLink to="/app">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
+      <NavLink to="/error">1- سورة الفاتحة</NavLink>
 
     </div>
   );

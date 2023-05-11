@@ -44,6 +44,8 @@ export default Header;
 function hideShowMenu(){
   const menu = document.querySelector('.menu')
   const downIcon = document.querySelector('.downIcon')
+  const sura = document.querySelector('.sura')
   menu.classList.toggle('hideShowMenu')
   downIcon.classList.toggle('downIconRight')
+  sura.classList.toggle('suraWidth')
 }
