@@ -12,8 +12,7 @@
 }
 
 .footerWidth {
-  width: 90.1%;
-  border-right: 1px solid rgb(0, 105, 170, 0.5);
+  width: calc(100% - 2px);
 }
 
 .footerLinks {

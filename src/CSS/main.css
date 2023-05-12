@@ -1,0 +1,20 @@
+.main .menu {
+  width: 100% ;
+  height: calc(100vh - 205px);
+}
+
+.main .footer {
+  position: absolute;
+  bottom: 0 ;
+  width: 99%;
+  border-top: 1px solid grey;
+}
+
+.main .menu a {
+  display: flex;
+  justify-content: center;
+}
+
+.main .header .icon {
+  visibility: hidden;
+}

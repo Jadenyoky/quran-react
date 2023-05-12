@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/24795d84c015a4e8895cd995ef838852?family=quran);
+
 * {
   scroll-behavior: smooth;
 }
@@ -32,25 +34,31 @@ code {
 }
 
 .suraWidth {
-  width: 90%;
-  border-right: 1px solid rgb(0, 105, 170, 0.5);
+  width: calc(100% - 2px);
 }
 
 .suraTitle , .suraStart {
   border: 1px solid rgb(0,0,0,0.2);
-  font-size: 25px;
+  font-size: 30px;
   padding: 10px 20px;
   border-radius: 10px 0;
+  font-family: quran;
+  background-color: whitesmoke;
+  color:rgb(0, 105, 170, 0.8)
 } .suraEnd {
-  font-size: 25px;
+  font-size: 30px;
   border: 1px solid rgb(0,0,0,0.2);
   border-radius: 10px 0;
   padding: 10px 20px;
   margin-top: -10px;
+  font-family: quran;
+  color:rgb(0, 105, 170, 0.8) ;
+  background-color: whitesmoke;
 }
 
 .suraStart {
   margin: 0;
+  font-family: quran;
 }
 
 .suraWords {
@@ -58,6 +66,10 @@ code {
   border-bottom: 1px solid rgb(0,0,0,0.2);
   padding: 30px 30px;
   margin-top: 20px;
+  font-family: quran ;
+  font-size: 30px;
+  color: rgb(0, 105, 170, 0.6);
+  background-color: whitesmoke;
 }
 
 

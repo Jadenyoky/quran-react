@@ -9,6 +9,7 @@
   overflow-x: hidden;
   transition: 0.4s linear;
   transform: translateX(0);
+  font-family: quran;
 } .hideShowMenu {
   transform: translateX(100%);
   opacity: 0;
@@ -21,21 +22,21 @@
   justify-content: center;
   padding: 10px;
   background-color: rgb(0, 105, 170);
-  color: #CED0CE ;
+  color: white ;
   border-bottom: 1px solid rgb(255,255,255,0.4);
+  font-size: 20px;
 }
 
 .menu a {
   text-decoration: none;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
+  padding: 10px 20px;
   color: grey;
   background-color: white;
   transition: 0.2s ease;
   border-bottom: 1px solid rgb(0, 105, 170, 0.5);
   border-left: 1px solid rgb(0, 105, 170, 0.5);
+  font-size: 17px;
 } .menu a:hover , .menu .active {
   background-color: rgb(0, 105, 170, 0.7);
   color: white;

@@ -56,14 +56,14 @@
 }
 
 .facebook:hover {
-  border-bottom: 1px solid blue ;
-  color: blue;
+  border-bottom: 1px solid rgb(0, 105, 170, 0.8) ;
+  color: rgb(0, 105, 170, 0.8);
 } .twitter:hover {
-  border-bottom: 1px solid teal ;
-  color: teal;
+  border-bottom: 1px solid rgb(0, 105, 170, 0.3) ;
+  color: rgb(0, 105, 170, 0.3);
 } .instagram:hover {
-  border-bottom: 1px solid purple;
-  color: purple;
+  border-bottom: 1px solid #962fbf;
+  color: #962fbf;
 }
 
 .header a {
@@ -73,4 +73,8 @@
 
 .header .title {
   transform: scale(1.5);
+  font-family: quran ;
+  padding: 5px ;
+  color:rgb(0, 105, 170, 0.8)
+
 }
