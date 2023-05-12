@@ -6,7 +6,7 @@
 .main .footer {
   position: absolute;
   bottom: 0 ;
-  width: 99%;
+  width: calc(100% - 2px);
   border-top: 1px solid grey;
 }
 
@@ -17,4 +17,63 @@
 
 .main .header .icon {
   visibility: hidden;
+}
+
+/* Media Query For Main Page Only */
+@media (max-width: 850px) {
+  .main .menu {
+    display: block;
+  }
+}
+
+@media (max-width: 700px) {
+  .main .header {
+    border-bottom: 2px solid rgb(0,0,0, 0.2) ;
+  }
+}
+
+@media (max-width: 600px) {
+  .main .footer .madeBy {
+    justify-content: flex-start;
+  } .main .footer .madeBy .jaden {
+    display: block;
+  } .main .footer {
+    gap: 15px;
+    padding: 15px 0;
+  } .main .footer .footerLinks {
+    font-size: 20px;
+  } .main .footer .footerLinks a {
+    padding: 5px 20px ;
+  }
+}
+
+@media (max-width: 400px) {
+  .main .header .title {
+    padding-left: 120px ;
+  }
+}
+@media (max-width: 350px) {
+  .main .header .links {
+    display: none;
+  } .main .header .title {
+    padding-left: 100px ;
+  }
+}
+
+@media (max-width: 300px) {
+  .main .header .title {
+    padding-left: 80px ;
+  } .main .footer .madeBy {
+    font-size: 20px
+  } .main .footer .madeBy span {
+    font-size: 20px
+  }
+}
+
+@media (max-width: 250px) {
+  .main .header .title {
+    padding-left: 60px ;
+  } .main .menu {
+    height: calc(100vh - 229px);
+  }
 }

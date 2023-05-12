@@ -26,7 +26,7 @@ code {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 75%;
+  width: 76%;
   transition: 0.1s ease 0.1s ;
   border: 1px solid rgb(0,0,0,0.2);
   border-top: 1px solid transparent;
@@ -77,14 +77,19 @@ code {
 ::-webkit-scrollbar {
   width: 10px;
 }
-
 /* Track */
 ::-webkit-scrollbar-track {
   background: transparent;
 }
-
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgb(0, 105, 170, 0.8);
   border-radius: 25px;
+}
+
+/* Media Query For All */
+@media (max-width: 850px) {
+  .sura {
+    width: calc(100% - 2px);
+  }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "../CSS/header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinesLeaning } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faLinesLeaning } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookF,
   faInstagram,
@@ -32,8 +32,11 @@ const Header = () => {
         </Link>
       </div>
       <div className="items title">القرآن الكريم</div>
-      <div className="items icon" onClick={hideShowMenu}>
+      <div className="items icon leanOne" onClick={hideShowMenu}>
         <FontAwesomeIcon icon={faLinesLeaning} />
+      </div>
+      <div className="items icon leanTwo" onClick={hideShowMenuTwo}>
+        <FontAwesomeIcon icon={faBars} />
       </div>
     </div>
   );
@@ -50,4 +53,9 @@ function hideShowMenu(){
   downIcon.classList.toggle('downIconRight')
   sura.classList.toggle('suraWidth')
   footer.classList.toggle('footerWidth')
+}
+
+function hideShowMenuTwo(){
+  const downIcon = document.querySelector('.downIcon')
+  downIcon.classList.toggle('downIconRight')
 }

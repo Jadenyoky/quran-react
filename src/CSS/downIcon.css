@@ -61,3 +61,10 @@
 .downIconRight {
   right: 20px ;
 }
+
+/* Media Query For DownIcon Comp. Only */
+@media (max-width: 850px) {
+  .downIcon {
+    right: 20px
+  }
+}

@@ -41,6 +41,10 @@
 } .header .icon:hover {
   background-color: rgb(0,0,0, 0.2);
   color: white ;
+} .header .leanOne {
+  display: block;
+} .header .leanTwo {
+  display: none;
 }
 
 .header .links {
@@ -77,4 +81,21 @@
   padding: 5px ;
   color:rgb(0, 105, 170, 0.8)
 
+}
+
+/* Media Query For Header Comp. Only */
+@media (max-width: 850px) {
+  .header .leanOne {
+    display: none;
+  } .header .leanTwo {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .header .links {
+    display: none;
+  } .header .title {
+    padding-left: 50px;
+  }
 }

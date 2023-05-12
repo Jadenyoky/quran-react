@@ -17,15 +17,15 @@ const Footer = () => {
         <Link to="https://www.facebook.com/jaden.yoky2014/" target='_blank'>
           <FontAwesomeIcon icon={faFacebookF} />
         </Link>
-        <Link to="https://twitter.com/JadenYoky">
+        <Link to="https://twitter.com/JadenYoky" target='_blank'>
           <FontAwesomeIcon icon={faTwitter} />
         </Link>
-        <Link to="https://www.instagram.com/jadenyoky/">
+        <Link to="https://www.instagram.com/jadenyoky/" target='_blank'>
           <FontAwesomeIcon icon={faInstagram} />
         </Link>
       </div>
       <div className='madeBy'>
-          This Website Made By <span>Jaden Yoky</span> with Love <span>&copy; 2023</span>
+          This Website Made By <span className='jaden'>Jaden Yoky</span> with Love <span className='thisYear'>&copy; 2023</span>
       </div>
     </div>
   );

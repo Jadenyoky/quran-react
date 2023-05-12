@@ -41,3 +41,11 @@
   background-color: rgb(0, 105, 170, 0.7);
   color: white;
 }
+
+
+/* Media Query For Menu Comp. Only */
+@media (max-width: 850px) {
+  .menu {
+    display: none;
+  }
+}
