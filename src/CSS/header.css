@@ -47,6 +47,15 @@
   display: none;
 } .leanThree {
   display: none;
+} .leanFour {
+  position: fixed;
+  right: 0;
+  transform: translateY(-100%);
+  padding-right: 20px !important ;
+} .leanOneHide {
+  transform: translateY(-100%);
+} .leanFourShow {
+  transform: translateY(0);
 }
 
 .header .links {
@@ -103,6 +112,10 @@
   } .leanThreeShow {
     transform: translateY(0);
   }
+
+  .leanFour {
+    display: none;
+  } 
 }
 
 @media (max-width: 400px) {

@@ -8,11 +8,12 @@
   overflow: scroll;
   overflow-x: hidden;
   transition: 0.4s linear;
-  transform: translateX(0);
-  font-family: quran;
-} .hideShowMenu {
   transform: translateX(100%);
+  font-family: quran;
   opacity: 0;
+} .showMenu {
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .menu .menuHeader {
@@ -34,8 +35,8 @@
   color: grey;
   background-color: white;
   transition: 0.2s ease;
-  border-bottom: 1px solid rgb(0, 105, 170, 0.5);
-  border-left: 1px solid rgb(0, 105, 170, 0.5);
+  border-bottom: 1px solid rgb(0, 105, 170, 0.3);
+  border-left: 1px solid rgb(0, 105, 170, 0.3);
   font-size: 17px;
 } .menu a:hover , .menu .active {
   background-color: rgb(0, 105, 170, 0.7);

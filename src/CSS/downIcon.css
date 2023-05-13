@@ -5,7 +5,7 @@
 .downIcon {
   position: fixed ;
   bottom: 20px;
-  right: 27%;
+  right: 20px;
   height: 70px;
   width: 70px;
   background-color: coral;
@@ -59,7 +59,7 @@
 }
 
 .downIconRight {
-  right: 20px ;
+  right: 27% ;
 }
 
 /* Media Query For DownIcon Comp. Only */

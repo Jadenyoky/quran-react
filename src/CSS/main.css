@@ -1,6 +1,8 @@
 .main .menu {
   width: 100% ;
   height: calc(100vh - 205px);
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .main .footer {

@@ -32,7 +32,7 @@ const Header = () => {
         </Link>
       </div>
       <div className="items title">القرآن الكريم</div>
-      <div className="items icon leanOne" onClick={hideShowMenu}>
+      <div className="items icon leanOne" onClick={ShowMenu}>
         <FontAwesomeIcon icon={faLinesLeaning} />
       </div>
       <div className="items icon leanTwo" onClick={ShowMenuTwo}>
@@ -41,21 +41,48 @@ const Header = () => {
       <div className="items icon leanThree" onClick={HideMenuTwo}>
         <FontAwesomeIcon icon={faXmark} />
       </div>
+      <div className="items icon leanFour" onClick={HideMenu}>
+        <FontAwesomeIcon icon={faXmark} />
+      </div>
     </div>
   );
 };
 
 export default Header;
 
-function hideShowMenu(){
+function ShowMenu(){
+  // const footer = document.querySelector('.footer')
+
+  // footer.classList.toggle('footerWidth')
+  const leanOne = document.querySelector('.leanOne')
+  const leanFour = document.querySelector('.leanFour')
   const menu = document.querySelector('.menu')
   const downIcon = document.querySelector('.downIcon')
   const sura = document.querySelector('.sura')
   const footer = document.querySelector('.footer')
-  menu.classList.toggle('hideShowMenu')
-  downIcon.classList.toggle('downIconRight')
-  sura.classList.toggle('suraWidth')
-  footer.classList.toggle('footerWidth')
+
+  leanOne.classList.add('leanOneHide')
+  leanFour.classList.add('leanFourShow')
+  menu.classList.add('showMenu')
+  downIcon.classList.add('downIconRight')
+  sura.classList.add('suraWidth')
+  footer.classList.add('footerWidth')
+}
+
+function HideMenu(){
+  const leanOne = document.querySelector('.leanOne')
+  const leanFour = document.querySelector('.leanFour')
+  const menu = document.querySelector('.menu')
+  const downIcon = document.querySelector('.downIcon')
+  const sura = document.querySelector('.sura')
+  const footer = document.querySelector('.footer')
+
+  leanOne.classList.remove('leanOneHide')
+  leanFour.classList.remove('leanFourShow')
+  menu.classList.remove('showMenu')
+  downIcon.classList.remove('downIconRight')
+  sura.classList.remove('suraWidth')
+  footer.classList.remove('footerWidth')
 }
 
 function ShowMenuTwo(){
