@@ -7,6 +7,7 @@ import Down from "../Components/downIcon";
 import Header from "../Components/Header";
 import Menu from "../Components/menu";
 import Footer from "../Components/Footer";
+import MenuTwo from "../Components/menuTwo";
 
 const One = () => {
   return (
@@ -16,6 +17,7 @@ const One = () => {
       </Helmet>
       <Header />
       <Menu />
+      <MenuTwo />
       <div className="sura">
         <p className="suraTitle">سورة الفاتحة</p>
         <p className="suraStart">

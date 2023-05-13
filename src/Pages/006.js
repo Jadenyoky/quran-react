@@ -4,6 +4,7 @@ import Down from "../Components/downIcon";
 import Header from "../Components/Header";
 import Menu from "../Components/menu";
 import Footer from "../Components/Footer";
+import MenuTwo from "../Components/menuTwo";
 
 const Six = () => {
   return (
@@ -13,6 +14,7 @@ const Six = () => {
       </Helmet>
       <Header />
       <Menu />
+      <MenuTwo />
       <div className="sura">
         <p className="suraTitle">سورة الأنعام</p>
         <p className="suraStart">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</p>

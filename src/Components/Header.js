@@ -1,7 +1,7 @@
 import React from "react";
 import "../CSS/header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faLinesLeaning } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faLinesLeaning, faXmark } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookF,
   faInstagram,
@@ -35,8 +35,11 @@ const Header = () => {
       <div className="items icon leanOne" onClick={hideShowMenu}>
         <FontAwesomeIcon icon={faLinesLeaning} />
       </div>
-      <div className="items icon leanTwo" onClick={hideShowMenuTwo}>
+      <div className="items icon leanTwo" onClick={ShowMenuTwo}>
         <FontAwesomeIcon icon={faBars} />
+      </div>
+      <div className="items icon leanThree" onClick={HideMenuTwo}>
+        <FontAwesomeIcon icon={faXmark} />
       </div>
     </div>
   );
@@ -55,7 +58,38 @@ function hideShowMenu(){
   footer.classList.toggle('footerWidth')
 }
 
-function hideShowMenuTwo(){
-  const downIcon = document.querySelector('.downIcon')
-  downIcon.classList.toggle('downIconRight')
+function ShowMenuTwo(){
+  const menuTwoDiv = document.querySelector('.menuTwoDiv')
+  const menuTwo = document.querySelector('.menuTwo')
+  const highlight = document.querySelector('.highlight')
+  const leanTwo = document.querySelector('.leanTwo')
+  const leanThree = document.querySelector('.leanThree')
+  
+  leanTwo.classList.add('leanTwoHide')
+  menuTwoDiv.classList.toggle('menuTwoDivShow')
+  leanThree.classList.add('leanThreeShow')
+
+  menuTwo.classList.remove('menuTwoDivHide')
+  highlight.classList.remove('highlightHide')
+
+  document.body.style.overflow = 'hidden'
+}
+
+function HideMenuTwo(){
+  const leanThree = document.querySelector('.leanThree')
+  const leanTwo = document.querySelector('.leanTwo')
+  const menuTwoDiv = document.querySelector('.menuTwoDiv')
+  const menuTwo = document.querySelector('.menuTwo')
+  const highlight = document.querySelector('.highlight')
+
+  leanTwo.classList.remove('leanTwoHide')
+  leanThree.classList.remove('leanThreeShow')
+
+  menuTwo.classList.add('menuTwoDivHide')
+  highlight.classList.add('highlightHide')
+  setTimeout(() => {
+    menuTwoDiv.classList.remove('menuTwoDivShow')
+  }, 300);
+
+  document.body.style.overflow = 'overlay'
 }

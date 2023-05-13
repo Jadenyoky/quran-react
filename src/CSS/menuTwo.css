@@ -1,0 +1,103 @@
+.menuTwoDiv {
+  display: none;
+} 
+
+/* Media Query for MenuTwo Comp. */
+@media (max-width: 850px) {
+  .menuTwo {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    overflow: scroll;
+    height: 74%;
+    width: 70%;
+    direction: rtl;
+    overflow-x: hidden;
+    border-radius: 0 0 40px 0;
+    animation: showFromBottom 0.4s;
+    z-index: 1;
+  } @keyframes showFromBottom {
+    0% {
+      opacity: 0;
+      margin-top: 200px ;
+    } 100% {
+      opacity: 1;
+    }
+  } .menuTwoHeader {
+    position: sticky;
+    top: -5px ;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid white;
+
+    background-color: rgb(0, 105, 170);
+    color: whitesmoke
+  } .menuTwo a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+
+    background-color: whitesmoke;
+    color: rgb(0, 105, 170 , 0.5) ;
+
+    transition: 0.2s ;
+  } .menuTwo a:hover , .menuTwo .active {
+    background-color: rgb(0, 105, 170 , 1);
+    color: white ;
+    border-bottom: 1px solid ;
+  }
+  
+  .highlight {
+    position: fixed;
+    top: 0 ;
+    height: 100vh;
+    width: 100% ;
+    background-color: rgb(0, 0, 0, 0.5);
+
+    animation: showFromZeroToOne 0.3s;
+
+    z-index: 1;
+  } @keyframes showFromZeroToOne {
+    0% {
+      opacity: 0;
+    } 100% {
+      opacity: 1;
+    }
+  }
+  
+  .highlightHide {
+    animation: hideFromOneToZero 0.4s;
+  } @keyframes hideFromOneToZero {
+    0% {
+      opacity: 1;
+    } 100% {
+      opacity: 0;
+    }
+  }
+
+  .menuTwoDivShow {
+    display: block;
+  } .menuTwoDivHide {
+    animation: sss 0.4s;
+  } @keyframes sss {
+    0% {
+      opacity: 1;
+    } 100% {
+      margin-top: 200px ;
+      opacity: 0;
+    }
+  }
+
+  .menuTwo::-webkit-scrollbar {
+    width: 10px;
+  } .menuTwo::-webkit-scrollbar-thumb {
+    background-color: white; 
+    border-right: 1px solid rgb(0, 105, 170 , 0.2) ;
+  }
+}

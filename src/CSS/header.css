@@ -41,9 +41,11 @@
 } .header .icon:hover {
   background-color: rgb(0,0,0, 0.2);
   color: white ;
-} .header .leanOne {
+} .leanOne {
   display: block;
-} .header .leanTwo {
+} .leanTwo {
+  display: none;
+} .leanThree {
   display: none;
 }
 
@@ -85,10 +87,21 @@
 
 /* Media Query For Header Comp. Only */
 @media (max-width: 850px) {
-  .header .leanOne {
+  .leanOne {
     display: none;
-  } .header .leanTwo {
+  } .leanTwo {
     display: block;
+  } .leanThree {
+    display: block;
+  } .leanThree {
+    position: fixed;
+    right: 0;
+    transform: translateY(-100%);
+    padding-right: 25px !important ;
+  } .leanTwoHide {
+    transform: translateY(-100%);
+  } .leanThreeShow {
+    transform: translateY(0);
   }
 }
 
