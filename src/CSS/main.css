@@ -1,15 +1,7 @@
 .main .menu {
   width: 100% ;
-  height: calc(100vh - 205px);
   opacity: 1;
   transform: translateX(0);
-}
-
-.main .footer {
-  position: absolute;
-  bottom: 0 ;
-  width: calc(100% - 2px);
-  border-top: 1px solid grey;
 }
 
 .main .menu a {
@@ -34,21 +26,6 @@
   }
 }
 
-@media (max-width: 600px) {
-  .main .footer .madeBy {
-    justify-content: flex-start;
-  } .main .footer .madeBy .jaden {
-    display: block;
-  } .main .footer {
-    gap: 15px;
-    padding: 15px 0;
-  } .main .footer .footerLinks {
-    font-size: 20px;
-  } .main .footer .footerLinks a {
-    padding: 5px 20px ;
-  }
-}
-
 @media (max-width: 400px) {
   .main .header .title {
     padding-left: 120px ;
@@ -65,17 +42,11 @@
 @media (max-width: 300px) {
   .main .header .title {
     padding-left: 80px ;
-  } .main .footer .madeBy {
-    font-size: 20px
-  } .main .footer .madeBy span {
-    font-size: 20px
   }
 }
 
 @media (max-width: 250px) {
   .main .header .title {
     padding-left: 60px ;
-  } .main .menu {
-    height: calc(100vh - 229px);
   }
 }
