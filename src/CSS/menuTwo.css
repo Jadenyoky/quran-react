@@ -17,6 +17,7 @@
     border-radius: 0 0 40px 0;
     animation: showFromBottom 0.4s;
     z-index: 1;
+    font-family: quran;
   } @keyframes showFromBottom {
     0% {
       opacity: 0;

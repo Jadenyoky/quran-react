@@ -1,4 +1,7 @@
-@import url(//db.onlinewebfonts.com/c/24795d84c015a4e8895cd995ef838852?family=quran);
+@font-face {
+  font-family: quran;
+  src: url('../Fonts/quran.otf');
+}
 
 * {
   scroll-behavior: smooth;
@@ -58,7 +61,6 @@ code {
 
 .suraStart {
   margin: 0;
-  font-family: quran;
 }
 
 .suraWords {
@@ -66,7 +68,7 @@ code {
   border-bottom: 1px solid rgb(0,0,0,0.2);
   padding: 30px 30px;
   margin-top: 20px;
-  font-family: quran ;
+  font-family: quran;
   font-size: 30px;
   color: rgb(0, 105, 170, 0.6);
   background-color: whitesmoke;
