@@ -82,7 +82,50 @@ import AlMulk from './Pages/067'
 import AlQalm from './Pages/068'
 import AlHaqa from './Pages/069'
 import AlMaarg from './Pages/070'
-
+import Nuh from './Pages/071'
+import AlJinn from './Pages/072'
+import AlMuzaml from './Pages/073'
+import AlMudathr from './Pages/074'
+import AlQiyama from './Pages/075'
+import AlInssan from './Pages/076'
+import AlMursalat from './Pages/077'
+import AlNabaa from './Pages/078'
+import AlNazaat from './Pages/079'
+import Aabasa from './Pages/080'
+import AlTakweer from './Pages/081'
+import AlInftar from './Pages/082'
+import AlMutafefen from './Pages/083'
+import AlInshqaq from './Pages/084'
+import AlBoroug from './Pages/085'
+import AlTareq from './Pages/086'
+import AlAala from './Pages/087'
+import AlGhashia from './Pages/088'
+import AlFagr from './Pages/089'
+import AlBalad from './Pages/090'
+import AlShams from './Pages/091'
+import AlLail from './Pages/092'
+import AlDouha from './Pages/093'
+import AlSharh from './Pages/094'
+import AlTin from './Pages/095'
+import AlAalaq from './Pages/096'
+import AlQadr from './Pages/097'
+import AlBayena from './Pages/098'
+import AlZalzala from './Pages/099'
+import AlAadeyat from './Pages/100'
+import AlQareaa from './Pages/101'
+import AlTakathor from './Pages/102'
+import AlAsr from './Pages/103'
+import AlHomasa from './Pages/104'
+import AlFel from './Pages/105'
+import Quraish from './Pages/106'
+import AlMaaoun from './Pages/107'
+import AlKawthar from './Pages/108'
+import AlKaferon from './Pages/109'
+import AlNasr from './Pages/110'
+import AlMasad from './Pages/111'
+import AlIkhlas from './Pages/112'
+import AlFalaq from './Pages/113'
+import AlNas from './Pages/114'
 
 
 // React Content
@@ -386,7 +429,182 @@ const router = createBrowserRouter([
     path: "/070",
     element: <AlMaarg />
   },
-  
+  {
+    path: "/071",
+    element: <Nuh />
+  },
+  {
+    path: "/072",
+    element: <AlJinn />
+  },
+  {
+    path: "/073",
+    element: <AlMuzaml />
+  },
+  {
+    path: "/074",
+    element: <AlMudathr />
+  },
+  {
+    path: "/075",
+    element: <AlQiyama />
+  },
+  {
+    path: "/076",
+    element: <AlInssan />
+  },
+  {
+    path: "/077",
+    element: <AlMursalat />
+  },
+  {
+    path: "/078",
+    element: <AlNabaa />
+  },
+  {
+    path: "/079",
+    element: <AlNazaat />
+  },
+  {
+    path: "/080",
+    element: <Aabasa />
+  },
+  {
+    path: "/081",
+    element: <AlTakweer />
+  },
+  {
+    path: "/082",
+    element: <AlInftar />
+  },
+  {
+    path: "/083",
+    element: <AlMutafefen />
+  },
+  {
+    path: "/084",
+    element: <AlInshqaq />
+  },
+  {
+    path: "/085",
+    element: <AlBoroug />
+  },
+  {
+    path: "/086",
+    element: <AlTareq />
+  },
+  {
+    path: "/087",
+    element: <AlAala />
+  },
+  {
+    path: "/088",
+    element: <AlGhashia />
+  },
+  {
+    path: "/089",
+    element: <AlFagr />
+  },
+  {
+    path: "/090",
+    element: <AlBalad />
+  },
+  {
+    path: "/091",
+    element: <AlShams />
+  },
+  {
+    path: "/092",
+    element: <AlLail />
+  },
+  {
+    path: "/093",
+    element: <AlDouha />
+  },
+  {
+    path: "/094",
+    element: <AlSharh />
+  },
+  {
+    path: "/095",
+    element: <AlTin />
+  },
+  {
+    path: "/096",
+    element: <AlAalaq />
+  },
+  {
+    path: "/097",
+    element: <AlQadr />
+  },
+  {
+    path: "/098",
+    element: <AlBayena />
+  },
+  {
+    path: "/099",
+    element: <AlZalzala />
+  },
+  {
+    path: "/100",
+    element: <AlAadeyat />
+  },
+  {
+    path: "/101",
+    element: <AlQareaa />
+  },
+  {
+    path: "/102",
+    element: <AlTakathor />
+  },
+  {
+    path: "/103",
+    element: <AlAsr />
+  },
+  {
+    path: "/104",
+    element: <AlHomasa />
+  },
+  {
+    path: "/105",
+    element: <AlFel />
+  },
+  {
+    path: "/106",
+    element: <Quraish />
+  },
+  {
+    path: "/107",
+    element: <AlMaaoun />
+  },
+  {
+    path: "/108",
+    element: <AlKawthar />
+  },
+  {
+    path: "/109",
+    element: <AlKaferon />
+  },
+  {
+    path: "/110",
+    element: <AlNasr />
+  },
+  {
+    path: "/111",
+    element: <AlMasad />
+  },
+  {
+    path: "/112",
+    element: <AlIkhlas />
+  },
+  {
+    path: "/113",
+    element: <AlFalaq />
+  },
+  {
+    path: "/114",
+    element: <AlNas />
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

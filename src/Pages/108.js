@@ -6,20 +6,21 @@ import Menu from "../Components/menu";
 import Footer from "../Components/Footer";
 import MenuTwo from "../Components/menuTwo";
 
-const ThirtyOne = () => {
+const HundredAndEight = () => {
   return (
     <div>
       <Helmet>
-        <title>031 - سورة لقمان</title>
+        <title>108 - سورة الكوثر</title>
       </Helmet>
       <Header />
       <Menu />
       <MenuTwo />
       <div className="sura">
-        <p className="suraTitle">سورة لقمان</p>
+        <p className="suraTitle">سورة الكوثر</p>
         <p className="suraStart">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</p>
         <p className="suraWords">
-
+          إِنَّآ أَعۡطَيۡنَٰكَ ٱلۡكَوۡثَرَ (1) فَصَلِّ لِرَبِّكَ وَٱنۡحَرۡ (2)
+          إِنَّ شَانِئَكَ هُوَ ٱلۡأَبۡتَرُ (3)
         </p>
         <p className="suraEnd">صَدَقَ اللهُ العَظيمُ</p>
       </div>
@@ -29,4 +30,4 @@ const ThirtyOne = () => {
   );
 };
 
-export default ThirtyOne;
+export default HundredAndEight;
