@@ -118,8 +118,41 @@
 
 .themeSuraBlue , .themeHeaderBlue {
   background-color: rgb(0, 105, 170, 1);
-  color: whitesmoke ;
+  color: beige ;
   border-color: aliceblue;
 } .themeTitleBlue , .themeLinksBlue {
   color: white !important;
+} .themeSuraStartEndBlue {
+  background-color: cornflowerblue !important;
+  color: white ;
+} .themeFooterBlue {
+  background-color: rgb(0, 105, 170, 0.4) !important;
+}
+
+
+.themeSuraCoral , .themeHeaderCoral {
+  background-color: coral;
+  color: white ;
+  border-color: white;
+} .themeTitleCoral , .themeLinksCoral {
+  color: white !important;
+} .themeSuraStartEndCoral {
+  background-color: white !important;
+  color: coral ;
+} .themeFooterCoral {
+  background-color: bisque !important;
+}
+
+.themeSuraBlack , .themeHeaderBlack {
+  background-color: #272625;
+  color: white ;
+  border-color: coral;
+} .themeTitleBlack , .themeLinksBlack {
+  color: gainsboro !important;
+} .themeSuraStartEndBlack {
+  background-color: rgb(255, 127, 80, 0.8) !important;
+  color: gainsboro ;
+} .themeFooterBlack {
+  background-color: #272625 !important;
+  border-top: 1px solid coral !important;
 }
