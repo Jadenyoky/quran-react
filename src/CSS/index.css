@@ -1,6 +1,6 @@
 @font-face {
-  font-family: quran;
-  src: url('../Fonts/quran.otf');
+  font-family: 'quran';
+  src: url('../Fonts/quran-hafs.woff') ;
 }
 
 * {
@@ -74,6 +74,10 @@ code {
   background-color: whitesmoke;
 }
 
+.numbersss {
+  font-family: numberss;
+  font-size: 30px;
+}
 
 /* width */
 ::-webkit-scrollbar {
