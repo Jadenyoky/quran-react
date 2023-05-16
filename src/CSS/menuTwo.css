@@ -16,7 +16,7 @@
     overflow-x: hidden;
     border-radius: 0 0 40px 0;
     animation: showFromBottom 0.4s;
-    z-index: 1;
+    z-index: 10;
     font-family: quran;
   } @keyframes showFromBottom {
     0% {
@@ -63,7 +63,7 @@
 
     animation: showFromZeroToOne 0.3s;
 
-    z-index: 1;
+    z-index: 9;
   } @keyframes showFromZeroToOne {
     0% {
       opacity: 0;

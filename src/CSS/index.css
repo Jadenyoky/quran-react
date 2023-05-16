@@ -31,7 +31,7 @@ code {
   text-align: center;
   width: calc(100% - 2px);
   transition: 0.1s ease 0.1s ;
-  border: 1px solid rgb(0,0,0,0.2);
+  border: 1px solid rgb(0,0,0,0.2) !important;
   border-top: 1px solid transparent;
   border-right: 1px solid transparent;
 }
@@ -72,11 +72,7 @@ code {
   font-size: 30px;
   color: rgb(0, 105, 170, 0.6);
   background-color: whitesmoke;
-}
-
-.numbersss {
-  font-family: numberss;
-  font-size: 30px;
+  transition: 0.3s linear;
 }
 
 /* width */

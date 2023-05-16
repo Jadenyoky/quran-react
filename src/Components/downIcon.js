@@ -1,11 +1,27 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown, faDroplet, faDropletSlash } from "@fortawesome/free-solid-svg-icons";
 import "../CSS/downIcon.css";
+import "../CSS/theme.css"
 
 const DownIcon = () => {
   return (
     <div>
+      <div className="theme">
+        <div className="showMe" onClick={themeColorsShow}>
+          <FontAwesomeIcon className="dropIcon" icon={faDroplet} />
+        </div>
+        <div className="hideMe" onClick={themeColorsHide}>
+          <FontAwesomeIcon className="dropIconTwo" icon={faDropletSlash} />
+        </div>
+        <div className="themeColors">
+          <span className="white" onClick={themeWhite}></span>
+          <span className="blue" onClick={themeBlue}></span>
+          <span className="coral" onClick={themeBlue}></span>
+          <span className="black" onClick={themeBlue}></span>
+        </div>
+      </div>
+      <div className="highlightTheme" onClick={themeColorsHide}></div>
       <div className="downIcon" onClick={toDown}>
         <div className="downIconProg">
           <FontAwesomeIcon
@@ -29,6 +45,89 @@ window.onscroll = () => {
   hideAndShowOnScroll();
   changeTitleToSuraName();
 };
+
+function themeWhite(){
+  const suraWords = document.querySelector('.suraWords')
+  const sura = document.querySelector('.sura')
+  const suraStart = document.querySelector('.suraStart')
+  const header = document.querySelector('.header')
+  const title = document.querySelector('.title')
+  const facebookHeader = document.querySelector('.facebook')
+  const twitterHeader = document.querySelector('.twitter')
+  const instagramHeader = document.querySelector('.instagram')
+  const leanOne = document.querySelector('.leanOne')
+  const leanTwo = document.querySelector('.leanTwo')
+  const leanThree = document.querySelector('.leanThree')
+  const leanFour = document.querySelector('.leanFour')
+
+  suraWords.classList.remove('themeSuraBlue')
+  sura.classList.remove('themeSuraBlue')
+  suraStart.classList.remove('themeSuraBlue')
+  header.classList.remove('themeHeaderBlue')
+  title.classList.remove('themeTitleBlue')
+  facebookHeader.classList.remove('themeLinksBlue')
+  twitterHeader.classList.remove('themeLinksBlue')
+  instagramHeader.classList.remove('themeLinksBlue')
+  leanOne.classList.remove('themeLinksBlue')
+  leanTwo.classList.remove('themeLinksBlue')
+  leanThree.classList.remove('themeLinksBlue')
+  leanFour.classList.remove('themeLinksBlue')
+}
+
+function themeBlue(){
+  const suraWords = document.querySelector('.suraWords')
+  const sura = document.querySelector('.sura')
+  const suraStart = document.querySelector('.suraStart')
+  const header = document.querySelector('.header')
+  const title = document.querySelector('.title')
+  const facebookHeader = document.querySelector('.facebook')
+  const twitterHeader = document.querySelector('.twitter')
+  const instagramHeader = document.querySelector('.instagram')
+  const leanOne = document.querySelector('.leanOne')
+  const leanTwo = document.querySelector('.leanTwo')
+  const leanThree = document.querySelector('.leanThree')
+  const leanFour = document.querySelector('.leanFour')
+
+  suraWords.classList.add('themeSuraBlue')
+  sura.classList.add('themeSuraBlue')
+  suraStart.classList.add('themeSuraBlue')
+  header.classList.add('themeHeaderBlue')
+  title.classList.add('themeTitleBlue')
+  facebookHeader.classList.add('themeLinksBlue')
+  twitterHeader.classList.add('themeLinksBlue')
+  instagramHeader.classList.add('themeLinksBlue')
+  leanOne.classList.add('themeLinksBlue')
+  leanTwo.classList.add('themeLinksBlue')
+  leanThree.classList.add('themeLinksBlue')
+  leanFour.classList.add('themeLinksBlue')
+}
+function themeColorsShow(){
+  const showMe = document.querySelector('.showMe')
+  const hideMe = document.querySelector('.hideMe')
+  const highlightTheme = document.querySelector('.highlightTheme')
+  const themeColors = document.querySelector('.themeColors')
+
+  showMe.classList.add('showMeHidden')
+  hideMe.classList.add('hideMeShow')
+  highlightTheme.classList.add('highlightThemeShow')
+  themeColors.classList.add('themeColorsShow')
+}
+
+function themeColorsHide(){
+  const showMe = document.querySelector('.showMe')
+  const hideMe = document.querySelector('.hideMe')
+  const highlightTheme = document.querySelector('.highlightTheme')
+  const themeColors = document.querySelector('.themeColors')
+
+  showMe.classList.remove('showMeHidden')
+  hideMe.classList.remove('hideMeShow')
+  highlightTheme.classList.add('highlightThemeHide')
+  themeColors.classList.remove('themeColorsShow')
+  setTimeout(() => {
+    highlightTheme.classList.remove('highlightThemeShow')
+    highlightTheme.classList.remove('highlightThemeHide')
+  }, 300);
+}
 
 function changeTitleToSuraName() {
   const title = document.querySelector(".title");
