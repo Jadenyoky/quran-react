@@ -110,6 +110,12 @@
   border-radius: 10px 0px;
 }
 
+.purple {
+  background-color: #7A57D1;
+  padding: 10px;
+  border-radius: 10px 0px;
+}
+
 .themeColors span {
   transition: 0.3s;
 } .themeColors span:active {
@@ -155,4 +161,18 @@
 } .themeFooterBlack {
   background-color: #272625 !important;
   border-top: 1px solid coral !important;
+}
+
+.themeSuraPurple , .themeHeaderPurple {
+  background-color: #7A57D1;
+  color: white ;
+  border-color: white;
+} .themeTitlePurple , .themeLinksPurple {
+  color: white !important;
+} .themeSuraStartEndPurple {
+  background-color: white !important;
+  color: #7A57D1 ;
+} .themeFooterPurple {
+  background-color: #452646 !important;
+  border-top: 1px solid white !important;
 }
