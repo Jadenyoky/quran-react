@@ -74,10 +74,12 @@
   background-color: rgb(255, 255, 255, 0.6);
   border-radius: 10px;
   opacity: 0;
+  visibility: hidden;
 } .themeColorsShow {
   transform: translate(0 , -50%);
   opacity: 1;
   animation: themeColorsShow 0.4s;
+  visibility: visible;
 } @keyframes themeColorsShow {
   0% {
     opacity: 0;
@@ -175,4 +177,37 @@
 } .themeFooterPurple {
   background-color: #452646 !important;
   border-top: 1px solid white !important;
+}
+
+
+.themeFooterFacebookBlue {
+  color: white !important;
+} .themeFooterTwitterBlue {
+  color: white !important;
+} .themeFooterInstagramBlue {
+  color: white !important;
+}
+
+.themeFooterFacebookCoral {
+  color: coral !important;
+} .themeFooterTwitterCoral {
+  color: coral !important;
+} .themeFooterInstagramCoral {
+  color: coral !important;
+}
+
+.themeFooterFacebookBlack {
+  color: white !important;
+} .themeFooterTwitterBlack {
+  color: white !important;
+} .themeFooterInstagramBlack {
+  color: white !important;
+}
+
+.themeFooterFacebookPurple {
+  color: white !important;
+} .themeFooterTwitterPurple {
+  color: white !important;
+} .themeFooterInstagramPurple {
+  color: white !important;
 }

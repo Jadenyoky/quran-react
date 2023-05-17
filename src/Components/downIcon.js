@@ -63,6 +63,9 @@ function themeWhite(){
   const leanThree = document.querySelector('.leanThree')
   const leanFour = document.querySelector('.leanFour')
   const footer = document.querySelector('.footer')
+  const footerFacebook = document.querySelector('.footerFacebook')
+  const footerTwitter = document.querySelector('.footerTwitter')
+  const footerInstagram = document.querySelector('.footerInstagram')
 
   suraWords.classList.remove('themeSuraBlue')
   sura.classList.remove('themeSuraBlue')
@@ -79,6 +82,10 @@ function themeWhite(){
   leanThree.classList.remove('themeLinksBlue')
   leanFour.classList.remove('themeLinksBlue')
   footer.classList.remove('themeFooterBlue')
+  footerFacebook.classList.remove('themeFooterFacebookBlue')
+  footerTwitter.classList.remove('themeFooterTwitterBlue')
+  footerInstagram.classList.remove('themeFooterInstagramBlue')
+
 
   suraWords.classList.remove('themeSuraCoral')
   sura.classList.remove('themeSuraCoral')
@@ -95,6 +102,10 @@ function themeWhite(){
   leanThree.classList.remove('themeLinksCoral')
   leanFour.classList.remove('themeLinksCoral')
   footer.classList.remove('themeFooterCoral')
+  footerFacebook.classList.remove('themeFooterFacebookCoral')
+  footerTwitter.classList.remove('themeFooterTwitterCoral')
+  footerInstagram.classList.remove('themeFooterInstagramCoral')
+
 
   suraWords.classList.remove('themeSuraBlack')
   sura.classList.remove('themeSuraBlack')
@@ -111,6 +122,9 @@ function themeWhite(){
   leanThree.classList.remove('themeLinksBlack')
   leanFour.classList.remove('themeLinksBlack')
   footer.classList.remove('themeFooterBlack')
+  footerFacebook.classList.remove('themeFooterFacebookBlack')
+  footerTwitter.classList.remove('themeFooterTwitterBlack')
+  footerInstagram.classList.remove('themeFooterInstagramBlack')
 
   suraWords.classList.remove('themeSuraPurple')
   sura.classList.remove('themeSuraPurple')
@@ -127,6 +141,9 @@ function themeWhite(){
   leanThree.classList.remove('themeLinksPurple')
   leanFour.classList.remove('themeLinksPurple')
   footer.classList.remove('themeFooterPurple')
+  footerFacebook.classList.remove('themeFooterFacebookPurple')
+  footerTwitter.classList.remove('themeFooterTwitterPurple')
+  footerInstagram.classList.remove('themeFooterInstagramPurple')
 }
 
 function themeBlue(){
@@ -145,6 +162,10 @@ function themeBlue(){
   const leanThree = document.querySelector('.leanThree')
   const leanFour = document.querySelector('.leanFour')
   const footer = document.querySelector('.footer')
+  const footerFacebook = document.querySelector('.footerFacebook')
+  const footerTwitter = document.querySelector('.footerTwitter')
+  const footerInstagram = document.querySelector('.footerInstagram')
+
 
   suraWords.classList.add('themeSuraBlue')
   sura.classList.add('themeSuraBlue')
@@ -161,6 +182,9 @@ function themeBlue(){
   leanThree.classList.add('themeLinksBlue')
   leanFour.classList.add('themeLinksBlue')
   footer.classList.add('themeFooterBlue')
+  footerFacebook.classList.add('themeFooterFacebookBlue')
+  footerTwitter.classList.add('themeFooterTwitterBlue')
+  footerInstagram.classList.add('themeFooterInstagramBlue')
 
 
   suraWords.classList.remove('themeSuraCoral')
@@ -178,6 +202,9 @@ function themeBlue(){
   leanThree.classList.remove('themeLinksCoral')
   leanFour.classList.remove('themeLinksCoral')
   footer.classList.remove('themeFooterCoral')
+  footerFacebook.classList.remove('themeFooterFacebookCoral')
+  footerTwitter.classList.remove('themeFooterTwitterCoral')
+  footerInstagram.classList.remove('themeFooterInstagramCoral')
 
   suraWords.classList.remove('themeSuraBlack')
   sura.classList.remove('themeSuraBlack')
@@ -194,6 +221,9 @@ function themeBlue(){
   leanThree.classList.remove('themeLinksBlack')
   leanFour.classList.remove('themeLinksBlack')
   footer.classList.remove('themeFooterBlack')
+  footerFacebook.classList.remove('themeFooterFacebookBlack')
+  footerTwitter.classList.remove('themeFooterTwitterBlack')
+  footerInstagram.classList.remove('themeFooterInstagramBlack')
 
   suraWords.classList.remove('themeSuraPurple')
   sura.classList.remove('themeSuraPurple')
@@ -210,6 +240,9 @@ function themeBlue(){
   leanThree.classList.remove('themeLinksPurple')
   leanFour.classList.remove('themeLinksPurple')
   footer.classList.remove('themeFooterPurple')
+  footerFacebook.classList.remove('themeFooterFacebookPurple')
+  footerTwitter.classList.remove('themeFooterTwitterPurple')
+  footerInstagram.classList.remove('themeFooterInstagramPurple')
 }
 
 function themeCoral(){
@@ -228,6 +261,9 @@ function themeCoral(){
   const leanThree = document.querySelector('.leanThree')
   const leanFour = document.querySelector('.leanFour')
   const footer = document.querySelector('.footer')
+  const footerFacebook = document.querySelector('.footerFacebook')
+  const footerTwitter = document.querySelector('.footerTwitter')
+  const footerInstagram = document.querySelector('.footerInstagram')
 
   suraWords.classList.add('themeSuraCoral')
   sura.classList.add('themeSuraCoral')
@@ -244,6 +280,10 @@ function themeCoral(){
   leanThree.classList.add('themeLinksCoral')
   leanFour.classList.add('themeLinksCoral')
   footer.classList.add('themeFooterCoral')
+  footerFacebook.classList.add('themeFooterFacebookCoral')
+  footerTwitter.classList.add('themeFooterTwitterCoral')
+  footerInstagram.classList.add('themeFooterInstagramCoral')
+
 
   suraWords.classList.remove('themeSuraBlue')
   sura.classList.remove('themeSuraBlue')
@@ -260,6 +300,10 @@ function themeCoral(){
   leanThree.classList.remove('themeLinksBlue')
   leanFour.classList.remove('themeLinksBlue')
   footer.classList.remove('themeFooterBlue')
+  footerFacebook.classList.remove('themeFooterFacebookBlue')
+  footerTwitter.classList.remove('themeFooterTwitterBlue')
+  footerInstagram.classList.remove('themeFooterInstagramBlue')
+
 
   suraWords.classList.remove('themeSuraBlack')
   sura.classList.remove('themeSuraBlack')
@@ -276,6 +320,10 @@ function themeCoral(){
   leanThree.classList.remove('themeLinksBlack')
   leanFour.classList.remove('themeLinksBlack')
   footer.classList.remove('themeFooterBlack')
+  footerFacebook.classList.remove('themeFooterFacebookBlack')
+  footerTwitter.classList.remove('themeFooterTwitterBlack')
+  footerInstagram.classList.remove('themeFooterInstagramBlack')
+
 
   suraWords.classList.remove('themeSuraPurple')
   sura.classList.remove('themeSuraPurple')
@@ -292,6 +340,9 @@ function themeCoral(){
   leanThree.classList.remove('themeLinksPurple')
   leanFour.classList.remove('themeLinksPurple')
   footer.classList.remove('themeFooterPurple')
+  footerFacebook.classList.remove('themeFooterFacebookPurple')
+  footerTwitter.classList.remove('themeFooterTwitterPurple')
+  footerInstagram.classList.remove('themeFooterInstagramPurple')
 }
 
 function themeBlack(){
@@ -310,6 +361,9 @@ function themeBlack(){
   const leanThree = document.querySelector('.leanThree')
   const leanFour = document.querySelector('.leanFour')
   const footer = document.querySelector('.footer')
+  const footerFacebook = document.querySelector('.footerFacebook')
+  const footerTwitter = document.querySelector('.footerTwitter')
+  const footerInstagram = document.querySelector('.footerInstagram')
 
   suraWords.classList.add('themeSuraBlack')
   sura.classList.add('themeSuraBlack')
@@ -326,6 +380,10 @@ function themeBlack(){
   leanThree.classList.add('themeLinksBlack')
   leanFour.classList.add('themeLinksBlack')
   footer.classList.add('themeFooterBlack')
+  footerFacebook.classList.add('themeFooterFacebookBlack')
+  footerTwitter.classList.add('themeFooterTwitterBlack')
+  footerInstagram.classList.add('themeFooterInstagramBlack')
+
 
   suraWords.classList.remove('themeSuraBlue')
   sura.classList.remove('themeSuraBlue')
@@ -342,6 +400,10 @@ function themeBlack(){
   leanThree.classList.remove('themeLinksBlue')
   leanFour.classList.remove('themeLinksBlue')
   footer.classList.remove('themeFooterBlue')
+  footerFacebook.classList.remove('themeFooterFacebookBlue')
+  footerTwitter.classList.remove('themeFooterTwitterBlue')
+  footerInstagram.classList.remove('themeFooterInstagramBlue')
+
 
   suraWords.classList.remove('themeSuraCoral')
   sura.classList.remove('themeSuraCoral')
@@ -358,6 +420,10 @@ function themeBlack(){
   leanThree.classList.remove('themeLinksCoral')
   leanFour.classList.remove('themeLinksCoral')
   footer.classList.remove('themeFooterCoral')
+  footerFacebook.classList.remove('themeFooterFacebookCoral')
+  footerTwitter.classList.remove('themeFooterTwitterCoral')
+  footerInstagram.classList.remove('themeFooterInstagramCoral')
+
 
   suraWords.classList.remove('themeSuraPurple')
   sura.classList.remove('themeSuraPurple')
@@ -374,6 +440,9 @@ function themeBlack(){
   leanThree.classList.remove('themeLinksPurple')
   leanFour.classList.remove('themeLinksPurple')
   footer.classList.remove('themeFooterPurple')
+  footerFacebook.classList.remove('themeFooterFacebookPurple')
+  footerTwitter.classList.remove('themeFooterTwitterPurple')
+  footerInstagram.classList.remove('themeFooterInstagramPurple')
 }
 
 function themePurple(){
@@ -392,6 +461,9 @@ function themePurple(){
   const leanThree = document.querySelector('.leanThree')
   const leanFour = document.querySelector('.leanFour')
   const footer = document.querySelector('.footer')
+  const footerFacebook = document.querySelector('.footerFacebook')
+  const footerTwitter = document.querySelector('.footerTwitter')
+  const footerInstagram = document.querySelector('.footerInstagram')
 
   suraWords.classList.add('themeSuraPurple')
   sura.classList.add('themeSuraPurple')
@@ -408,6 +480,9 @@ function themePurple(){
   leanThree.classList.add('themeLinksPurple')
   leanFour.classList.add('themeLinksPurple')
   footer.classList.add('themeFooterPurple')
+  footerFacebook.classList.add('themeFooterFacebookPurple')
+  footerTwitter.classList.add('themeFooterTwitterPurple')
+  footerInstagram.classList.add('themeFooterInstagramPurple')
 
   suraWords.classList.remove('themeSuraBlue')
   sura.classList.remove('themeSuraBlue')
@@ -424,6 +499,10 @@ function themePurple(){
   leanThree.classList.remove('themeLinksBlue')
   leanFour.classList.remove('themeLinksBlue')
   footer.classList.remove('themeFooterBlue')
+  footerFacebook.classList.remove('themeFooterFacebookBlue')
+  footerTwitter.classList.remove('themeFooterTwitterBlue')
+  footerInstagram.classList.remove('themeFooterInstagramBlue')
+
 
   suraWords.classList.remove('themeSuraCoral')
   sura.classList.remove('themeSuraCoral')
@@ -440,6 +519,10 @@ function themePurple(){
   leanThree.classList.remove('themeLinksCoral')
   leanFour.classList.remove('themeLinksCoral')
   footer.classList.remove('themeFooterCoral')
+  footerFacebook.classList.remove('themeFooterFacebookCoral')
+  footerTwitter.classList.remove('themeFooterTwitterCoral')
+  footerInstagram.classList.remove('themeFooterInstagramCoral')
+
 
   suraWords.classList.remove('themeSuraBlack')
   sura.classList.remove('themeSuraBlack')
@@ -456,6 +539,9 @@ function themePurple(){
   leanThree.classList.remove('themeLinksBlack')
   leanFour.classList.remove('themeLinksBlack')
   footer.classList.remove('themeFooterBlack')
+  footerFacebook.classList.remove('themeFooterFacebookBlack')
+  footerTwitter.classList.remove('themeFooterTwitterBlack')
+  footerInstagram.classList.remove('themeFooterInstagramBlack')
 }
 
 function themeColorsShow(){

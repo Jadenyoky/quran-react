@@ -14,13 +14,13 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='footerLinks'>
-        <Link to="https://www.facebook.com/jaden.yoky2014/" target='_blank'>
+        <Link className='footerFacebook' to="https://www.facebook.com/jaden.yoky2014/" target='_blank'>
           <FontAwesomeIcon icon={faFacebookF} />
         </Link>
-        <Link to="https://twitter.com/JadenYoky" target='_blank'>
+        <Link className='footerTwitter' to="https://twitter.com/JadenYoky" target='_blank'>
           <FontAwesomeIcon icon={faTwitter} />
         </Link>
-        <Link to="https://www.instagram.com/jadenyoky/" target='_blank'>
+        <Link className='footerInstagram' to="https://www.instagram.com/jadenyoky/" target='_blank'>
           <FontAwesomeIcon icon={faInstagram} />
         </Link>
       </div>

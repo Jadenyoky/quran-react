@@ -31,6 +31,8 @@ code {
   text-align: center;
   width: 100%;
   transition: 0.1s ease 0.1s ;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 .suraWidth {
@@ -67,12 +69,23 @@ code {
   margin-top: 20px;
   font-family: quran;
   font-size: 30px;
-  color: rgb(0, 105, 170, 0.6);
+  color: rgb(0, 105, 170, 1);
   background-color: whitesmoke;
   transition: 0.3s linear;
-  filter: drop-shadow(0px 0px 10px );
-  text-shadow: 0px 0px 60px;
+  filter: drop-shadow(-10px 0px 10px );
   line-height: 2.2;
+  word-spacing: 2px;
+} 
+
+.suraWords::before {
+  content: '' ;
+  position: absolute;
+  top: 0 ;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: url('../PICS/colorsWallpaper.jpg') 100%;
+  filter: blur(100px) opacity(0.2);
 }
 
 /* width */
@@ -89,9 +102,9 @@ code {
   border-radius: 25px;
 }
 
-/* Media Query For All */
+
 @media (max-width: 850px) {
   .sura {
-    width: calc(100% - 2px);
+    width: 100% ;
   }
 }
