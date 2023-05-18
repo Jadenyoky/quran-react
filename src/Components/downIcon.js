@@ -32,6 +32,7 @@ const DownIcon = () => {
           />
         </div>
       </div>
+      <span className="percent"></span>
       <div className="end"></div>
     </div>
   );
@@ -66,6 +67,28 @@ function themeWhite(){
   const footerFacebook = document.querySelector('.footerFacebook')
   const footerTwitter = document.querySelector('.footerTwitter')
   const footerInstagram = document.querySelector('.footerInstagram')
+  const numberTheme = document.querySelectorAll('.numberTheme')
+  const partTheme = document.querySelectorAll('.partTheme')
+
+  for (let y = 0; y < numberTheme.length; y++) {
+    const nt = numberTheme[y];
+    
+    nt.classList.remove('themeNumberThemeBlue')
+
+    nt.classList.remove('themeNumberThemeCoral')
+    nt.classList.remove('themeNumberThemeBlack')
+    nt.classList.remove('themeNumberThemePurple')
+  }
+
+  for (let x = 0; x < partTheme.length; x++) {
+    const pt = partTheme[x];
+    
+    pt.classList.remove('themePartThemeBlue')
+
+    pt.classList.remove('themePartThemeCoral')
+    pt.classList.remove('themePartThemeBlack')
+    pt.classList.remove('themePartThemePurple')
+  }
 
   suraWords.classList.remove('themeSuraBlue')
   sura.classList.remove('themeSuraBlue')
@@ -165,6 +188,28 @@ function themeBlue(){
   const footerFacebook = document.querySelector('.footerFacebook')
   const footerTwitter = document.querySelector('.footerTwitter')
   const footerInstagram = document.querySelector('.footerInstagram')
+  const numberTheme = document.querySelectorAll('.numberTheme')
+  const partTheme = document.querySelectorAll('.partTheme')
+
+  for (let y = 0; y < numberTheme.length; y++) {
+    const nt = numberTheme[y];
+    
+    nt.classList.add('themeNumberThemeBlue')
+
+    nt.classList.remove('themeNumberThemeCoral')
+    nt.classList.remove('themeNumberThemeBlack')
+    nt.classList.remove('themeNumberThemePurple')
+  }
+
+  for (let x = 0; x < partTheme.length; x++) {
+    const pt = partTheme[x];
+    
+    pt.classList.add('themePartThemeBlue')
+
+    pt.classList.remove('themePartThemeCoral')
+    pt.classList.remove('themePartThemeBlack')
+    pt.classList.remove('themePartThemePurple')
+  }
 
 
   suraWords.classList.add('themeSuraBlue')
@@ -185,6 +230,7 @@ function themeBlue(){
   footerFacebook.classList.add('themeFooterFacebookBlue')
   footerTwitter.classList.add('themeFooterTwitterBlue')
   footerInstagram.classList.add('themeFooterInstagramBlue')
+
 
 
   suraWords.classList.remove('themeSuraCoral')
@@ -264,6 +310,28 @@ function themeCoral(){
   const footerFacebook = document.querySelector('.footerFacebook')
   const footerTwitter = document.querySelector('.footerTwitter')
   const footerInstagram = document.querySelector('.footerInstagram')
+  const numberTheme = document.querySelectorAll('.numberTheme')
+  const partTheme = document.querySelectorAll('.partTheme')
+
+  for (let y = 0; y < numberTheme.length; y++) {
+    const nt = numberTheme[y];
+    
+    nt.classList.add('themeNumberThemeCoral')
+
+    nt.classList.remove('themeNumberThemeBlue')
+    nt.classList.remove('themeNumberThemeBlack')
+    nt.classList.remove('themeNumberThemePurple')
+  }
+
+  for (let x = 0; x < partTheme.length; x++) {
+    const pt = partTheme[x];
+    
+    pt.classList.add('themePartThemeCoral')
+
+    pt.classList.remove('themePartThemeBlue')
+    pt.classList.remove('themePartThemeBlack')
+    pt.classList.remove('themePartThemePurple')
+  }
 
   suraWords.classList.add('themeSuraCoral')
   sura.classList.add('themeSuraCoral')
@@ -364,6 +432,28 @@ function themeBlack(){
   const footerFacebook = document.querySelector('.footerFacebook')
   const footerTwitter = document.querySelector('.footerTwitter')
   const footerInstagram = document.querySelector('.footerInstagram')
+  const numberTheme = document.querySelectorAll('.numberTheme')
+  const partTheme = document.querySelectorAll('.partTheme')
+
+  for (let y = 0; y < numberTheme.length; y++) {
+    const nt = numberTheme[y];
+    
+    nt.classList.add('themeNumberThemeBlack')
+
+    nt.classList.remove('themeNumberThemeBlue')
+    nt.classList.remove('themeNumberThemeCoral')
+    nt.classList.remove('themeNumberThemePurple')
+  }
+
+  for (let x = 0; x < partTheme.length; x++) {
+    const pt = partTheme[x];
+    
+    pt.classList.add('themePartThemeBlack')
+
+    pt.classList.remove('themePartThemeBlue')
+    pt.classList.remove('themePartThemeCoral')
+    pt.classList.remove('themePartThemePurple')
+  }
 
   suraWords.classList.add('themeSuraBlack')
   sura.classList.add('themeSuraBlack')
@@ -464,6 +554,28 @@ function themePurple(){
   const footerFacebook = document.querySelector('.footerFacebook')
   const footerTwitter = document.querySelector('.footerTwitter')
   const footerInstagram = document.querySelector('.footerInstagram')
+  const numberTheme = document.querySelectorAll('.numberTheme')
+  const partTheme = document.querySelectorAll('.partTheme')
+
+  for (let y = 0; y < numberTheme.length; y++) {
+    const nt = numberTheme[y];
+    
+    nt.classList.add('themeNumberThemePurple')
+
+    nt.classList.remove('themeNumberThemeBlue')
+    nt.classList.remove('themeNumberThemeCoral')
+    nt.classList.remove('themeNumberThemeBlack')
+  }
+
+  for (let x = 0; x < partTheme.length; x++) {
+    const pt = partTheme[x];
+    
+    pt.classList.add('themePartThemePurple')
+
+    pt.classList.remove('themePartThemeBlue')
+    pt.classList.remove('themePartThemeCoral')
+    pt.classList.remove('themePartThemeBlack')
+  }
 
   suraWords.classList.add('themeSuraPurple')
   sura.classList.add('themeSuraPurple')
@@ -585,15 +697,21 @@ function changeTitleToSuraName() {
 
 function downIconShow() {
   const down = document.querySelector(".downIcon");
+  const percent = document.querySelector(".percent");
+
   if (window.scrollY > 10) {
     down.classList.add("downIconOne");
+    percent.classList.add('percentShow')
   } else if (window.scrollY < 10) {
     down.classList.remove("downIconOne");
+    percent.classList.remove('percentShow')
   }
 }
 
 function scrollPercent() {
   const down = document.querySelector(".downIcon");
+  const percent = document.querySelector('.percent')
+
   let T = document.body.scrollTop || document.documentElement.scrollTop;
   let H =
     document.documentElement.scrollHeight -
@@ -601,6 +719,7 @@ function scrollPercent() {
   let A = (T / H) * 100;
 
   down.style.background = `conic-gradient(#0069aa ${A}% , #c0cfd8 ${A}%)`;
+  percent.innerHTML = A.toFixed()+' %'
 
   const downIcon = document.querySelector(".downIconProgOne");
 

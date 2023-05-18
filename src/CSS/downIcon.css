@@ -16,15 +16,15 @@
   transition: 0.4s linear;
   cursor: pointer;
   box-shadow: 1px 1px 40px 0px black;
-} .downIconProg:hover {
+} .downIconProg:active {
   background-color: #c0cfd8;
 } .downIconProg {
   position: absolute;
   top: 50% ;
   left: 50%;
   transform: translate(-50% , -50%);
-  height: calc(100% - 10px);
-  width: calc(100% - 10px) ;
+  height: calc(100% - 8px);
+  width: calc(100% - 8px) ;
   border-radius: 50%;
   background-color: white;
   color: #0069a7;
@@ -60,6 +60,32 @@
 
 .downIconRight {
   right: 27% ;
+}
+
+.percent { 
+  position: fixed;
+  bottom: 0 ;
+  left: 0;
+  font-size: 15px;
+  background-color: #0069a7;
+  padding: 5px 10px;
+  border-radius: 0px 20px 20px 0px;
+  color: white ;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: 0.3s linear;
+} .percentShow {
+    opacity: 0.7;
+    transform: translate(0);
+    animation: percentMove 0.3s linear;
+} @keyframes percentMove {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  } 100% {
+    opacity: 0.7;
+    transform: translate(0);
+  }
 }
 
 /* Media Query For DownIcon Comp. Only */
