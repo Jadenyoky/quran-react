@@ -19,11 +19,19 @@ const HundredAndTwo = () => {
         <p className="suraTitle">سورة التكاثر</p>
         <p className="suraStart">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</p>
         <p className="suraWords">
-          أَلۡهَىٰكُمُ ٱلتَّكَاثُرُ (1) حَتَّىٰ زُرۡتُمُ ٱلۡمَقَابِرَ (2) كَلَّا
-          سَوۡفَ تَعۡلَمُونَ (3) ثُمَّ كَلَّا سَوۡفَ تَعۡلَمُونَ (4) كَلَّا لَوۡ
-          تَعۡلَمُونَ عِلۡمَ ٱلۡيَقِينِ (5) لَتَرَوُنَّ ٱلۡجَحِيمَ (6) ثُمَّ
-          لَتَرَوُنَّهَا عَيۡنَ ٱلۡيَقِينِ (7) ثُمَّ لَتُسۡـَٔلُنَّ يَوۡمَئِذٍ
-          عَنِ ٱلنَّعِيمِ (8)
+          أَلۡهَىٰكُمُ ٱلتَّكَاثُرُ 
+          <span className="numberTheme"> (1) </span> حَتَّىٰ زُرۡتُمُ ٱلۡمَقَابِرَ 
+          <span className="numberTheme"> (2) </span> كَلَّا
+          سَوۡفَ تَعۡلَمُونَ 
+          <span className="numberTheme"> (3) </span> ثُمَّ كَلَّا سَوۡفَ تَعۡلَمُونَ 
+          <span className="numberTheme"> (4) </span> كَلَّا لَوۡ
+          تَعۡلَمُونَ عِلۡمَ ٱلۡيَقِينِ 
+          <span className="numberTheme"> (5) </span> لَتَرَوُنَّ ٱلۡجَحِيمَ 
+          <span className="numberTheme"> (6) </span> ثُمَّ
+          لَتَرَوُنَّهَا عَيۡنَ ٱلۡيَقِينِ 
+          <span className="numberTheme"> (7) </span> ثُمَّ لَتُسۡـَٔلُنَّ يَوۡمَئِذٍ
+          عَنِ ٱلنَّعِيمِ 
+          <span className="numberTheme"> (8) </span>
         </p>
         <p className="suraEnd">صَدَقَ اللهُ العَظيمُ</p>
       </div>

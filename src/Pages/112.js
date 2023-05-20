@@ -19,8 +19,12 @@ const HundredAndTwelve = () => {
         <p className="suraTitle">سورة الإخلاص</p>
         <p className="suraStart">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</p>
         <p className="suraWords">
-          قُلۡ هُوَ ٱللَّهُ أَحَدٌ (1) ٱللَّهُ ٱلصَّمَدُ (2) لَمۡ يَلِدۡ وَلَمۡ
-          يُولَدۡ (3) وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ (4)
+          قُلۡ هُوَ ٱللَّهُ أَحَدٌ
+          <span className="numberTheme"> (1) </span> ٱللَّهُ ٱلصَّمَدُ
+          <span className="numberTheme"> (2) </span> لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ
+          <span className="numberTheme"> (3) </span> وَلَمۡ يَكُن لَّهُۥ كُفُوًا
+          أَحَدُۢ
+          <span className="numberTheme"> (4) </span>
         </p>
         <p className="suraEnd">صَدَقَ اللهُ العَظيمُ</p>
       </div>

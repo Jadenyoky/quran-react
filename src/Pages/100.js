@@ -19,13 +19,26 @@ const Hundred = () => {
         <p className="suraTitle">سورة العاديات</p>
         <p className="suraStart">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</p>
         <p className="suraWords">
-          وَٱلۡعَٰدِيَٰتِ ضَبۡحٗا (1) فَٱلۡمُورِيَٰتِ قَدۡحٗا (2)
-          فَٱلۡمُغِيرَٰتِ صُبۡحٗا (3) فَأَثَرۡنَ بِهِۦ نَقۡعٗا (4) فَوَسَطۡنَ
-          بِهِۦ جَمۡعًا (5) إِنَّ ٱلۡإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٞ (6)
-          وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٞ (7) وَإِنَّهُۥ لِحُبِّ ٱلۡخَيۡرِ
-          لَشَدِيدٌ (8) ۞أَفَلَا يَعۡلَمُ إِذَا بُعۡثِرَ مَا فِي ٱلۡقُبُورِ (9)
-          وَحُصِّلَ مَا فِي ٱلصُّدُورِ (10) إِنَّ رَبَّهُم بِهِمۡ يَوۡمَئِذٖ
-          لَّخَبِيرُۢ (11)
+          وَٱلۡعَٰدِيَٰتِ ضَبۡحٗا
+          <span className="numberTheme"> (1) </span> فَٱلۡمُورِيَٰتِ قَدۡحٗا
+          <span className="numberTheme"> (2) </span>
+          فَٱلۡمُغِيرَٰتِ صُبۡحٗا
+          <span className="numberTheme"> (3) </span> فَأَثَرۡنَ بِهِۦ نَقۡعٗا
+          <span className="numberTheme"> (4) </span> فَوَسَطۡنَ بِهِۦ جَمۡعًا
+          <span className="numberTheme"> (5) </span> إِنَّ ٱلۡإِنسَٰنَ
+          لِرَبِّهِۦ لَكَنُودٞ
+          <span className="numberTheme"> (6) </span>
+          وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٞ
+          <span className="numberTheme"> (7) </span> وَإِنَّهُۥ لِحُبِّ
+          ٱلۡخَيۡرِ لَشَدِيدٌ
+          <span className="numberTheme"> (8) </span>
+          <span className="partTheme"> ۞ </span>أَفَلَا يَعۡلَمُ إِذَا بُعۡثِرَ
+          مَا فِي ٱلۡقُبُورِ
+          <span className="numberTheme"> (9) </span>
+          وَحُصِّلَ مَا فِي ٱلصُّدُورِ
+          <span className="numberTheme"> (10) </span> إِنَّ رَبَّهُم بِهِمۡ
+          يَوۡمَئِذٖ لَّخَبِيرُۢ
+          <span className="numberTheme"> (11) </span>
         </p>
         <p className="suraEnd">صَدَقَ اللهُ العَظيمُ</p>
       </div>

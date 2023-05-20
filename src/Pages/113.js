@@ -19,9 +19,15 @@ const HundredAndThirteen = () => {
         <p className="suraTitle">سورة الفلق</p>
         <p className="suraStart">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</p>
         <p className="suraWords">
-          قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ (1) مِن شَرِّ مَا خَلَقَ (2) وَمِن
-          شَرِّ غَاسِقٍ إِذَا وَقَبَ (3) وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي
-          ٱلۡعُقَدِ (4) وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ (5)
+          قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ
+          <span className="numberTheme"> (1) </span> مِن شَرِّ مَا خَلَقَ
+          <span className="numberTheme"> (2) </span> وَمِن شَرِّ غَاسِقٍ إِذَا
+          وَقَبَ
+          <span className="numberTheme"> (3) </span> وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ
+          فِي ٱلۡعُقَدِ
+          <span className="numberTheme"> (4) </span> وَمِن شَرِّ حَاسِدٍ إِذَا
+          حَسَدَ
+          <span className="numberTheme"> (5) </span>
         </p>
         <p className="suraEnd">صَدَقَ اللهُ العَظيمُ</p>
       </div>

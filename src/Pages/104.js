@@ -19,12 +19,22 @@ const HundredAndFour = () => {
         <p className="suraTitle">سورة الهمزة</p>
         <p className="suraStart">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</p>
         <p className="suraWords">
-          وَيۡلٞ لِّكُلِّ هُمَزَةٖ لُّمَزَةٍ (1) ٱلَّذِي جَمَعَ مَالٗا
-          وَعَدَّدَهُۥ (2) يَحۡسَبُ أَنَّ مَالَهُۥٓ أَخۡلَدَهُۥ (3) كَلَّاۖ
-          لَيُنۢبَذَنَّ فِي ٱلۡحُطَمَةِ (4) وَمَآ أَدۡرَىٰكَ مَا ٱلۡحُطَمَةُ
-          (5) نَارُ ٱللَّهِ ٱلۡمُوقَدَةُ (6) ٱلَّتِي تَطَّلِعُ عَلَى
-          ٱلۡأَفۡـِٔدَةِ (7) إِنَّهَا عَلَيۡهِم مُّؤۡصَدَةٞ (8) فِي عَمَدٖ
-          مُّمَدَّدَةِۭ (9)
+          وَيۡلٞ لِّكُلِّ هُمَزَةٖ لُّمَزَةٍ
+          <span className="numberTheme"> (1) </span> ٱلَّذِي جَمَعَ مَالٗا
+          وَعَدَّدَهُۥ
+          <span className="numberTheme"> (2) </span> يَحۡسَبُ أَنَّ مَالَهُۥٓ
+          أَخۡلَدَهُۥ
+          <span className="numberTheme"> (3) </span> كَلَّاۖ لَيُنۢبَذَنَّ فِي
+          ٱلۡحُطَمَةِ
+          <span className="numberTheme"> (4) </span> وَمَآ أَدۡرَىٰكَ مَا
+          ٱلۡحُطَمَةُ
+          <span className="numberTheme"> (5) </span> نَارُ ٱللَّهِ ٱلۡمُوقَدَةُ
+          <span className="numberTheme"> (6) </span> ٱلَّتِي تَطَّلِعُ عَلَى
+          ٱلۡأَفۡـِٔدَةِ
+          <span className="numberTheme"> (7) </span> إِنَّهَا عَلَيۡهِم
+          مُّؤۡصَدَةٞ
+          <span className="numberTheme"> (8) </span> فِي عَمَدٖ مُّمَدَّدَةِۭ
+          <span className="numberTheme"> (9) </span>
         </p>
         <p className="suraEnd">صَدَقَ اللهُ العَظيمُ</p>
       </div>

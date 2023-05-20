@@ -19,10 +19,16 @@ const HundredAndNine = () => {
         <p className="suraTitle">سورة الكافرون</p>
         <p className="suraStart">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</p>
         <p className="suraWords">
-          قُلۡ يَٰٓأَيُّهَا ٱلۡكَٰفِرُونَ (1) لَآ أَعۡبُدُ مَا تَعۡبُدُونَ (2)
-          وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ (3) وَلَآ أَنَا۠ عَابِدٞ مَّا
-          عَبَدتُّمۡ (4) وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ (5) لَكُمۡ
-          دِينُكُمۡ وَلِيَ دِينِ (6)
+          قُلۡ يَٰٓأَيُّهَا ٱلۡكَٰفِرُونَ 
+          <span className="numberTheme"> (1) </span> لَآ أَعۡبُدُ مَا تَعۡبُدُونَ 
+          <span className="numberTheme"> (2) </span>
+          وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ 
+          <span className="numberTheme"> (3) </span> وَلَآ أَنَا۠ عَابِدٞ مَّا
+          عَبَدتُّمۡ 
+          <span className="numberTheme"> (4) </span> وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ 
+          <span className="numberTheme"> (5) </span> لَكُمۡ
+          دِينُكُمۡ وَلِيَ دِينِ 
+          <span className="numberTheme"> (6) </span>
         </p>
         <p className="suraEnd">صَدَقَ اللهُ العَظيمُ</p>
       </div>

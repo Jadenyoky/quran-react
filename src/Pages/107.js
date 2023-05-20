@@ -19,10 +19,18 @@ const HundredAndSeven = () => {
         <p className="suraTitle">سورة الماعون</p>
         <p className="suraStart">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</p>
         <p className="suraWords">
-          أَرَءَيۡتَ ٱلَّذِي يُكَذِّبُ بِٱلدِّينِ (1) فَذَٰلِكَ ٱلَّذِي يَدُعُّ
-          ٱلۡيَتِيمَ (2) وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلۡمِسۡكِينِ (3) فَوَيۡلٞ
-          لِّلۡمُصَلِّينَ (4) ٱلَّذِينَ هُمۡ عَن صَلَاتِهِمۡ سَاهُونَ (5)
-          ٱلَّذِينَ هُمۡ يُرَآءُونَ (6) وَيَمۡنَعُونَ ٱلۡمَاعُونَ (7)
+          أَرَءَيۡتَ ٱلَّذِي يُكَذِّبُ بِٱلدِّينِ
+          <span className="numberTheme"> (1) </span> فَذَٰلِكَ ٱلَّذِي يَدُعُّ
+          ٱلۡيَتِيمَ
+          <span className="numberTheme"> (2) </span> وَلَا يَحُضُّ عَلَىٰ
+          طَعَامِ ٱلۡمِسۡكِينِ
+          <span className="numberTheme"> (3) </span> فَوَيۡلٞ لِّلۡمُصَلِّينَ
+          <span className="numberTheme"> (4) </span> ٱلَّذِينَ هُمۡ عَن
+          صَلَاتِهِمۡ سَاهُونَ
+          <span className="numberTheme"> (5) </span>
+          ٱلَّذِينَ هُمۡ يُرَآءُونَ
+          <span className="numberTheme"> (6) </span> وَيَمۡنَعُونَ ٱلۡمَاعُونَ
+          <span className="numberTheme"> (7) </span>
         </p>
         <p className="suraEnd">صَدَقَ اللهُ العَظيمُ</p>
       </div>

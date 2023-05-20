@@ -19,10 +19,18 @@ const NinetyFour = () => {
         <p className="suraTitle">سورة الشرح</p>
         <p className="suraStart">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</p>
         <p className="suraWords">
-          أَلَمۡ نَشۡرَحۡ لَكَ صَدۡرَكَ (1) وَوَضَعۡنَا عَنكَ وِزۡرَكَ (2)
-          ٱلَّذِيٓ أَنقَضَ ظَهۡرَكَ (3) وَرَفَعۡنَا لَكَ ذِكۡرَكَ (4) فَإِنَّ
-          مَعَ ٱلۡعُسۡرِ يُسۡرًا (5) إِنَّ مَعَ ٱلۡعُسۡرِ يُسۡرٗا (6) فَإِذَا
-          فَرَغۡتَ فَٱنصَبۡ (7) وَإِلَىٰ رَبِّكَ فَٱرۡغَب (8)
+          أَلَمۡ نَشۡرَحۡ لَكَ صَدۡرَكَ
+          <span className="numberTheme"> (1) </span> وَوَضَعۡنَا عَنكَ وِزۡرَكَ
+          <span className="numberTheme"> (2) </span>
+          ٱلَّذِيٓ أَنقَضَ ظَهۡرَكَ
+          <span className="numberTheme"> (3) </span> وَرَفَعۡنَا لَكَ ذِكۡرَكَ
+          <span className="numberTheme"> (4) </span> فَإِنَّ مَعَ ٱلۡعُسۡرِ
+          يُسۡرًا
+          <span className="numberTheme"> (5) </span> إِنَّ مَعَ ٱلۡعُسۡرِ
+          يُسۡرٗا
+          <span className="numberTheme"> (6) </span> فَإِذَا فَرَغۡتَ فَٱنصَبۡ
+          <span className="numberTheme"> (7) </span> وَإِلَىٰ رَبِّكَ فَٱرۡغَب
+          <span className="numberTheme"> (8) </span>
         </p>
         <p className="suraEnd">صَدَقَ اللهُ العَظيمُ</p>
       </div>

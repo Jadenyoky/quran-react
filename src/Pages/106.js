@@ -19,9 +19,14 @@ const HundredAndSix = () => {
         <p className="suraTitle">سورة قريش</p>
         <p className="suraStart">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</p>
         <p className="suraWords">
-          لِإِيلَٰفِ قُرَيۡشٍ (1) إِۦلَٰفِهِمۡ رِحۡلَةَ ٱلشِّتَآءِ وَٱلصَّيۡفِ
-          (2) فَلۡيَعۡبُدُواْ رَبَّ هَٰذَا ٱلۡبَيۡتِ (3) ٱلَّذِيٓ أَطۡعَمَهُم
-          مِّن جُوعٖ وَءَامَنَهُم مِّنۡ خَوۡفِۭ (4)
+          لِإِيلَٰفِ قُرَيۡشٍ
+          <span className="numberTheme"> (1) </span> إِۦلَٰفِهِمۡ رِحۡلَةَ
+          ٱلشِّتَآءِ وَٱلصَّيۡفِ
+          <span className="numberTheme"> (2) </span> فَلۡيَعۡبُدُواْ رَبَّ
+          هَٰذَا ٱلۡبَيۡتِ
+          <span className="numberTheme"> (3) </span> ٱلَّذِيٓ أَطۡعَمَهُم مِّن
+          جُوعٖ وَءَامَنَهُم مِّنۡ خَوۡفِۭ
+          <span className="numberTheme"> (4) </span>
         </p>
         <p className="suraEnd">صَدَقَ اللهُ العَظيمُ</p>
       </div>
